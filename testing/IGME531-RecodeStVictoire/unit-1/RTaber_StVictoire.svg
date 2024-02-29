@@ -1,0 +1,41 @@
+<!-- sample rectangle -->
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 117 119">
+  <g id='background'>
+    <rect x='0' y='0' width='150' height='150' style='fill:#efeeec;'/>
+  </g>
+  <g id='squares'>
+    <g id='background-square'>
+      <g transform="rotate(65, 40,30)">
+          <rect x='12' y='20' width='30' height='30' style='fill:#6b2933;'/>
+      </g>
+      <g transform='rotate(65,60,35)'>
+          <rect x='85' y='30' width='30' height='30' style='fill:#6b2933;'/>
+      </g>
+      <g transform='rotate(3,-12,9)'>
+          <rect x='70' y='48' width='30' height='30' style='fill:#6b2933;'/>
+      </g>
+    </g>
+    <g id='midground'>
+      <g transform="rotate(3,25,40)">
+          <rect x='2' y='45' width='30' height='30' style="fill:#bf2b2b;"/>
+      </g>
+      <g transform='rotate(-3, 50,18)' opacity='0.97'>
+          <rect x='35' y='3' width='30' height='30' style='fill:#c0302d;'/>
+      </g>
+      <g transform='rotate(45,85,98)'>
+          <rect x='68' y='85' width='30' height='30' style='fill:#c0302d;'/>
+      </g>
+    </g>
+    <g id='foreground'>
+      <g transform="rotate(45,30,45)">
+          <rect x='10' y='30' width='30' height='30' style='fill:#e94039;'/>
+      </g>
+      <g transform='rotate(75,70,50)'>
+          <rect x='48' y='35' width='30' height='30' style='fill:#e94039;'/>
+      </g>
+      <g transform='rotate(15,91,100)'>
+          <rect x='83' y='83' width='30' height='30' style='fill:#e72524;'/>
+      </g>
+    </g>
+  </g>
+</svg>
